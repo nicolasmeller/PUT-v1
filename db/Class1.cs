@@ -12,7 +12,7 @@ namespace WindowsFormsApp4.db
     {
         public static SqlConnection GetDBConnection()
         {
-            string datasource = @"192.168.205.135\SQLEXPRESS";
+            string datasource = @"IP\SQLEXPRESS";
 
             string database = "simplehr";
             string username = "sa";
